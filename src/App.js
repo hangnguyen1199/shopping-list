@@ -6,7 +6,7 @@ import ShoppingList from "./shoppingList";
 function App() {
   return(
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/shopping-list" exact component={ShoppingList} />
           <Route path="/shopping-list/share" component={Share} />
