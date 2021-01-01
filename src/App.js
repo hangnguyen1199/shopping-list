@@ -9,7 +9,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/shopping-list/" exact component={ShoppingList} />
-          <Route path="/shopping-list/share" component={Share} />
+          <Route path="/share" component={Share} />
         </Switch>
       </Router>
     </div>

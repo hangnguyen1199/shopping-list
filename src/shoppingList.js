@@ -168,7 +168,7 @@ const ShoppingList = () => {
     setTotalItemCount(totalItemCount);
   };
   const show = () =>{
-      window.location.href = '/shopping-list/share';
+      window.location.href = '/share';
   }
 
   return (
